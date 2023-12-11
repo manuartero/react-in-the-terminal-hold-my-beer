@@ -1,0 +1,19 @@
+{
+  "name": "react-in-the-terminal-hold-my-beer",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "slidev build",
+    "dev": "slidev --open",
+    "export": "slidev export"
+  },
+  "dependencies": {
+    "@slidev/cli": "^0.45.0",
+    "@slidev/theme-default": "latest",
+    "@slidev/theme-seriph": "latest"
+  },
+  "devDependencies": {
+    "@iconify-json/grommet-icons": "^1.1.9",
+    "@iconify-json/logos": "^1.1.40"
+  }
+}
