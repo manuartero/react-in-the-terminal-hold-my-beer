@@ -19,6 +19,10 @@
   grid-template-rows: none !important;
 }
 
+.slidev-icon {
+  margin: 0 3px;
+}
+
 .terminal {
   margin-top: 50px;
 
@@ -50,4 +54,36 @@
 .blinking {
   opacity: 0;
   animation: blinkk 1200ms infinite;
+}
+
+@keyframes buzz {
+  0% {
+    transform: translateX(0px) rotate(0deg);
+  }
+  50% {
+    transform: translateX(5px) rotate(12deg);
+  }
+  100% {
+    transform: translateX(0px) rotate(0deg);
+  }
+}
+
+.alien {
+  animation: buzz 900ms infinite ease-in-out;
+}
+
+@keyframes breeth {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-1px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.player {
+  animation: breeth 1500ms infinite ease-in-out;
 }

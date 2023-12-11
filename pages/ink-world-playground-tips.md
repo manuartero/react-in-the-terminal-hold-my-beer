@@ -3,6 +3,10 @@
     <carbon-logo-github />
 </a></h1>
 
+::left::
+
+Components
+
 ```js
 <Box
   margin={1}
@@ -14,6 +18,8 @@
 >
 ```
 
+Hooks
+
 ```js
 const { exit } = useApp();
 
@@ -23,6 +29,10 @@ useInput((input, key) => {
     if (key.rightArrow) { ... }
 });
 ```
+
+::right::
+
+devtools
 
 ```diff
 "devDependencies": {

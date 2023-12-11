@@ -22,10 +22,7 @@ mdc: true
 
 
 <div class="abs-br m-6 flex gap-2">
-  <button @click="$slidev.nav.openInEditor()" title="Open in Editor" class="text-xl slidev-icon-btn opacity-50 !border-none !hover:text-white">
-    <carbon:edit />
-  </button>
-  <a href="https://github.com/slidevjs/slidev" target="_blank" alt="GitHub" title="Open in GitHub"
+  <a href="https://github.com/manuartero/react-in-the-terminal-hold-my-beer" target="_blank" alt="GitHub" title="Open in GitHub"
     class="text-xl slidev-icon-btn opacity-50 !border-none !hover:text-white">
     <carbon-logo-github />
   </a>
@@ -62,12 +59,14 @@ class: px-10
 clicks: 9
 ---
 
+
 ---
 layout: default
 src: ./pages/internal-structure-2.md
 class: px-10
 transition: slide-right
 ---
+
 
 ---
 layout: iframe-left
@@ -98,6 +97,13 @@ src: pages/implement-reconciler.md
 
 
 ---
+layout: iframe-right
+url: https://vadimdemedes.com/
+class: px-20
+src: pages/ink-intro.md
+---
+
+---
 layout: default
 class: px-20
 src: pages/ink-world-1.md
@@ -112,7 +118,13 @@ src: pages/ink-world-playground.md
 
 
 ---
-layout: default
+layout: two-cols-header
 class: px-20
 src: pages/ink-world-playground-tips.md
+---
+
+
+---
+layout: statement
+src: pages/thanks.md
 ---
