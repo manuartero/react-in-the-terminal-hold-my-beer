@@ -1,4 +1,4 @@
-# hands on deck
+# Implement our own Reconciler
 
 ```diff{all|2-3|8}
 import React from "react";

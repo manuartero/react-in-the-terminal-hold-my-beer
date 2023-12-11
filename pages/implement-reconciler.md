@@ -1,24 +1,19 @@
-# Implement the Reconcilier
+# Implement our own Reconciler
 
-<div grid="~ cols-2 gap-2" m="t-2">
+React language
 
-```yaml
----
-theme: default
----
+```js
+view = createView()
+updateView(view, { color: 'green' })
 ```
 
-```yaml
----
-theme: seriph
----
+=> translates to actual DOM language
+
+```js
+const el = document.createElement('div')
+el.style.color = 'red'
 ```
 
-<img border="rounded" src="https://github.com/slidevjs/themes/blob/main/screenshots/theme-default/01.png?raw=true" alt="">
-
-<img border="rounded" src="https://github.com/slidevjs/themes/blob/main/screenshots/theme-seriph/01.png?raw=true" alt="">
-
+<div v-click="1" class="terminal">
+<div class="prompt">$» LIVE CODE<span class="blinking">█</span></div>
 </div>
-
-Read more about [How to use a theme](https://sli.dev/themes/use.html) and
-check out the [Awesome Themes Gallery](https://sli.dev/themes/gallery.html).

@@ -1,4 +1,4 @@
-# react-reconciler
+# Implement our own Reconciler
 
 ```js
 ReactDOM.render(<App />, document.getElementById("root"));

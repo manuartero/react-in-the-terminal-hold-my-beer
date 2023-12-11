@@ -61,7 +61,7 @@ clicks: 9
 
 
 ---
-layout: default
+layout: two-cols-header
 src: ./pages/internal-structure-2.md
 class: px-10
 transition: slide-right
@@ -78,7 +78,7 @@ src: ./pages/starting-counter.md
 ---
 layout: default
 class: px-40
-src: ./pages/hands-on-deck.md
+src: ./pages/our-own-reconciler.md
 ---
 
 
