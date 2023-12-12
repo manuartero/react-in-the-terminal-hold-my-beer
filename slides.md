@@ -35,33 +35,33 @@ class: px-40
 ---
 transition: slide-up
 layout: default
-src: ./pages/me.md
+src: pages/me.md
 ---
 
 
 ---
 transition: slide-down
 layout: center
-src: ./pages/down-to-business.md
+src: pages/down-to-business.md
 ---
 
 ---
 layout: default
-src: ./pages/two-packages.md
+src: pages/two-packages.md
 class: px-40
 ---
 
 
 ---
 layout: default
-src: ./pages/two-packages-2.md
+src: pages/two-packages-2.md
 class: px-40
 ---
 
 
 ---
 layout: two-cols-header
-src: ./pages/internal-structure.md
+src: pages/internal-structure.md
 class: px-10
 clicks: 9
 ---
@@ -69,7 +69,7 @@ clicks: 9
 
 ---
 layout: two-cols-header
-src: ./pages/internal-structure-2.md
+src: pages/internal-structure-2.md
 class: px-10
 transition: slide-right
 ---
@@ -78,14 +78,14 @@ transition: slide-right
 ---
 layout: default
 class: px-40
-src: ./pages/our-own-reconciler.md
+src: pages/our-own-reconciler.md
 ---
 
 
 ---
 layout: default
 class: px-40
-src: ./pages/our-own-reconciler-2.md
+src: pages/our-own-reconciler-2.md
 ---
 
 
@@ -99,7 +99,7 @@ src: pages/our-own-reconciler-3.md
 ---
 layout: iframe-left
 url: https://my-react-dom.vercel.app/
-src: ./pages/starting-counter.md
+src: pages/starting-counter.md
 ---
 
 
