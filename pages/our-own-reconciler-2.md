@@ -6,11 +6,12 @@ ReactDOM.render(<App />, document.getElementById("root"));
 
 <br>
 
-```js{all|8-12|1|3-6}
+```js{all|9-13|1|3-7}
 import ReactReconcilier from "react-reconciler";
 
-// how to talk to the host environment
-const hostConfig = {};
+const hostConfig = {
+  /* how to talk to the host environment */
+};
 
 const reconciler = ReactReconcilier(hostConfig);
 

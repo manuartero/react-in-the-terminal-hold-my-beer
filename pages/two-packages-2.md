@@ -1,6 +1,6 @@
-# When we import React...
+## react-dom
 
-```js{all|1|2|all}
+```js{all|2|2,5}
 import React from "react";
 import ReactDOM from "react-dom";
 
@@ -11,18 +11,17 @@ function App() {
 ReactDOM.render(<App />, document.getElementById("root"));
 ```
 
-<br/>
+<br>
 
-<div v-click="4">
-Instead of...
+## react-native
 
-```js
+```js{all|2|2,5}
 import React from "react";
+import { View, Text } from "react-native";
 
 function App() {
-  return <main>Hi There</main>;
+  return <View><Text>Hi There</Text></View>;
 }
 
-React.DOM.render(<App />, document.getElementById("root"));
+export default App;
 ```
-</div>

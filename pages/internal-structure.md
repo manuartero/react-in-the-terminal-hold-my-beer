@@ -14,8 +14,8 @@
   <li v-click="7">React.lazy, Suspense.</li>
 </ul>
 
-<Box v-click=8 x1=50 y1=35 x2=400 y2=60 color=green />
-<Box v-click=9 x1=50 y1=65 x2=400 y2=260 color=darkgreen />
+<Box v-click=8 x1=50 y1=35 x2=400 y2=60  color="#cf78f2" />
+<Box v-click=9 x1=50 y1=65 x2=400 y2=260 color="#a8ccf9" />
 
 ::right::
 
@@ -31,5 +31,5 @@
   <li v-click="7">React.lazy, Suspense.</li>
 </ul>
 
-<Box v-click=8 x1=50 y1=35 x2=400 y2=60 color=green />
-<Box v-click=9 x1=50 y1=65 x2=400 y2=260 color=darkgreen />
+<Box v-click=8 x1=50 y1=35 x2=400 y2=60  color="#cf78f2" />
+<Box v-click=9 x1=50 y1=65 x2=400 y2=260 color="#a8ccf9" />
