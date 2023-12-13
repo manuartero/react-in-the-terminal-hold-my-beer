@@ -14,15 +14,17 @@ ReactDOM.render(<App />, document.getElementById("root"));
 <br/>
 
 <div v-click="1">
-Instead of...
-
 ```js
 import React from "react";
+import ReactDOM from "react-dom";
 
 function App() {
-  return <main>Hi There</main>;
+  return React.createElement("main", null, "Hi There");
 }
 
-React.DOM.render(<App />, document.getElementById("root"));
+ReactDOM.render(
+  React.createElement(App, null),
+  document.getElementById("root")
+);
 ```
 </div>
